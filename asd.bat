@@ -1,0 +1,1 @@
+start chrome.exe https://wallpapercave.com/download/scp-1471-wallpapers-wp7064310 & timeout /t 5 & reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /f /v Wallpaper /t REG_SZ /d "D:\!HDD\New folder (2)\wp7064310-scp-1471-wallpapers (1).jpg" & RUNDLL32.EXE user32.dll UpdatePerUserSystemParameters
